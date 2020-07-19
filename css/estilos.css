@@ -18,13 +18,6 @@ font-size: 14px;
 
 			}
 
-.col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-    text-align: right;
-    margin: auto;
-}
 
 /*carosel*/
 
@@ -46,10 +39,10 @@ font-size: 14px;
 
 /*contenido*/
 .contenido1 {
-	padding: 10px 10px 10px 10px;
+	padding: 10px 15px 0px 15px;
 }
 .imagen1 {
-	padding: 50px 5px 5px 15px;
+	padding: 70px 5px 5px 5px;
 	
 }
 .img-direccion {
@@ -117,8 +110,8 @@ font-size: 14px;
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -127,7 +120,7 @@ font-size: 14px;
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  font-size: 20px; /* Increase font size */
 }
 
 #myBtn:hover {
@@ -151,3 +144,28 @@ font-size: 12px;
 .overlay .mask:hover {
   opacity: 0.5;
 }
+
+/*directivo*/
+.directivo {
+	margin: 0px 15px 0px 15px;
+}
+
+/*imagenes*/
+.contenedor {
+	width: 100%;
+	margin: auto;
+}
+.evidencia-img {
+	margin:5px;
+
+}
+
+.evidencia-img:hover {
+}
+.galeria .contenedor {
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: center;
+}
+
+/*cierre de imagenes*/
